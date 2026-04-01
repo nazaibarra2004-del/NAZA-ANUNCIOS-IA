@@ -8,9 +8,11 @@ import os
 from moviepy.video.VideoClip import ImageClip
 from moviepy.audio.io.AudioFileClip import AudioFileClip
 
+
 # --- 1. CONFIGURACIÓN DE IA (GEMINI) ---
-API_KEY = st.secrets["AIzaSyAp_EK4dQwrM_iRAjDcgQtfZpxdLZLQLQw"]
+API_KEY = st.secrets["GEMINI_KEY"]
 genai.configure(api_key=API_KEY)
+
 
 # Nombre oficial sin prefijos raros
 model = genai.GenerativeModel('gemini-2.5-flash')
