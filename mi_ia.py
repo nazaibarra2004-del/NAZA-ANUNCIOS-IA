@@ -9,7 +9,7 @@ from moviepy.video.VideoClip import ImageClip
 from moviepy.audio.io.AudioFileClip import AudioFileClip
 
 # --- 1. CONFIGURACIÓN DE IA (GEMINI) ---
-API_KEY = "AIzaSyAp_EK4dQwrM_iRAjDcgQtfZpxdLZLQLQw" 
+API_KEY = st.secrets["AIzaSyAp_EK4dQwrM_iRAjDcgQtfZpxdLZLQLQw"]
 genai.configure(api_key=API_KEY)
 
 # Nombre oficial sin prefijos raros
