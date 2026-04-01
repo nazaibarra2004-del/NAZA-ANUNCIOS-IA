@@ -1,0 +1,9 @@
+streamlit
+google-generativeai
+diffusers
+torch
+transformers
+accelerate
+edge-tts
+moviepy
+pillow
