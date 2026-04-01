@@ -1,9 +1,9 @@
 streamlit
 google-generativeai
-diffusers
 torch
+torchvision
+diffusers
 transformers
 accelerate
 edge-tts
-moviepy
-pillow
+moviepy==1.0.3
