@@ -5,7 +5,8 @@ from diffusers import StableDiffusionPipeline
 import edge_tts
 import asyncio
 import os
-from moviepy.editor import ImageClip, AudioFileClip
+from moviepy.video.VideoClip import ImageClip
+from moviepy.audio.io.AudioFileClip import AudioFileClip
 
 # --- 1. CONFIGURACIÓN DE IA (GEMINI) ---
 API_KEY = "AIzaSyAp_EK4dQwrM_iRAjDcgQtfZpxdLZLQLQw" 
